@@ -1,3 +1,9 @@
+# Cache files
+.DS_Store
+package-lock.json
+.vscode
+build
+
 # Logs
 logs
 *.log
@@ -102,3 +108,5 @@ dist
 
 # TernJS port file
 .tern-port
+
+server/prisma/migrations

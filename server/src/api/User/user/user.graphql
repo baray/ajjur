@@ -1,0 +1,8 @@
+type User {
+  id: ID!
+  pckds: [pckd!]
+  name: String!
+  email: String!
+  createdAt: String!
+  updatedAt: String!
+}

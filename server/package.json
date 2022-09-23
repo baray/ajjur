@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/.",
+    "start": "npm run dev",
+    "prod": "node src/.",
+    "server": "cd server && npm run dev",
+    "db-init": "npx -y prisma db push"
+  },
+  "keywords": [],
+  "author": "Basel Ajarma",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.4.0",
+    "@graphql-tools/merge": "^8.1.2",
+    "@graphql-tools/schema": "^8.2.0",
+    "@ipregistry/client": "^4.3.0",
+    "@prisma/client": "^3.1.1",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.28",
+    "nodemailer": "^6.7.2",
+    "ua-parser-js": "^1.0.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^3.1.1"
+  }
+}

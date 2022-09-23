@@ -1,0 +1,20 @@
+type pckd {
+  id: ID!
+  user: User
+
+  target: String!
+  pckd: String!
+  hits: [hit]
+  hitCount: Int!
+  title: String
+  enableTracking: Boolean!
+  byCountryGraph: [byCountryGraphItem]
+
+  createdAt: String!
+  updatedAt: String!
+}
+
+type byCountryGraphItem {
+  country: country
+  count: Int!
+}
